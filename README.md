@@ -2,7 +2,7 @@
 
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/recommender-system-for-movie-recommendation.jpg)
 
-For this project, I will be modeling a recommender system for the MovieLens Dataset, which is a classic dataset used for recommendation system models. The purpose of a recommendation system is to predict future preferences for users by recommending the top items based on the user.
+For this project, I will be modeling a recommender system for the MovieLens Dataset, which is a classic dataset used for recommendation system models. The purpose of a recommendation system is to predict future preferences for users by recommending the top items based on the user. I did a simple content-based filtering method and used the surprise library for collaborative filtering.
 
 Why is recommender system important? Recommender system is a decision making strategy which helps relieve users from the amount of overloaded information provided today. E-commerce websites such as Amazon and Ebay have an endless selection of goods and services ranging from high demand to low demand goods. This can be overwhelming to the customer in which they need to browse through possibly millions of items to find what they need. Recommendation systems help alleviate this problem of information overload by providing them with personalized recommendations.
 
@@ -25,7 +25,7 @@ Collaborative filtering is that similar users share similar interests and that u
 
 # Technologies Used
 
-Python 
+**Python**
 * Pandas for Data Cleaning & Data Manipulation
 * Matplotlib, Seaborn for Data Visualization
 * Numpy for Data Calculations
@@ -47,7 +47,6 @@ Dataset can be found on the GroupLens website: https://grouplens.org/datasets/mo
 
 # Exploratory Data Analysis
 
-
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/frequency_number_ratings_per_user.png)
 
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/movie_count_per_genre.png)
@@ -56,18 +55,13 @@ Dataset can be found on the GroupLens website: https://grouplens.org/datasets/mo
 
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/average_rating_x_number_ratings.png)
 
-# Modeling
+
+# Algorithms
 
 The algorithms that were used:
-* Logistic Regression
-* Decision Trees
-* Random Forest
-* K-Nearest Neighbors
-* XGBoost
-* Gradient Boosting
-* LinearSVC
-
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/ROC_curve.png)
+**KNNBasic**: basic collaborative filtering algorithm
+**KNNBaseline**: basic collaborative filtering algorithm taking into account a baseline rating
+**SVD**: matrix factorization method
 
 
 # Final Model Results
