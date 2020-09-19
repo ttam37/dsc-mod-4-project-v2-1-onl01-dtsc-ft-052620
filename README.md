@@ -6,17 +6,17 @@ For this project, I will be modeling a recommender system for the MovieLens Data
 
 Why is recommender system important? Recommender system is a decision making strategy which helps relieve users from the amount of overloaded information provided today. E-commerce websites such as Amazon and Ebay have an endless selection of goods and services ranging from high demand to low demand goods. This can be overwhelming to the customer in which they need to browse through possibly millions of items to find what they need. Recommendation systems help alleviate this problem of information overload by providing them with personalized recommendations.
 
-*There are two types of recommender systems, Content-Based Filtering and Collaborative Filtering.*
+**There are two types of recommender systems, Content-Based Filtering and Collaborative Filtering.**
 
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/Content-based-filtering-vs-Collaborative-filtering-Source.png)
 
-## Content Filtering
+### Content Filtering
 
 "Show me more of the same of what I've liked before"
 
 Content-based filtering is based on a profile of the user's characteristics and description of the items. The user's characteristics is used to indicate the type of items an user likes. A content filtering algorithm will recommend items that are similar to what an user likes. The idea behind the algorithm is to tag products using certain features, understand what the user likes, look up those features in the item database, and recommend different items with the same features to the user.
 
-## Collaborative Filtering
+### Collaborative Filtering
 
 "Show me what is popular among similar users like me"
 
