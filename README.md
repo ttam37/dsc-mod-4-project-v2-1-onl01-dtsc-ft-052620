@@ -48,13 +48,13 @@ Dataset can be found on the GroupLens website: https://grouplens.org/datasets/mo
 # Exploratory Data Analysis
 
 
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/frequency_number_ratings_per_user.png)
+![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/frequency_number_ratings_per_user.png)
 
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/movie_count_per_genre.png)
+![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/movie_count_per_genre.png)
 
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/total_count_movies_per_rating.png)
+![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/total_count_movies_per_rating.png)
 
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/average_rating_x_number_ratings.png)
+![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/average_rating_x_number_ratings.png)
 
 # Modeling
 
