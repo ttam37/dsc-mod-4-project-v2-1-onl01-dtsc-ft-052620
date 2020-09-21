@@ -58,7 +58,7 @@ Dataset can be found on the GroupLens website: https://grouplens.org/datasets/mo
 
 # Algorithms
 
-The algorithms that were used (pred
+The algorithms that were used:
 
 #### Basic Algorithms
 * **NormalPredictor**: algorithm predicts a random rating based on the distribution of the training set, which is assumed to be normal. This is one of the most basic algorithms that do not do much work.
@@ -78,9 +78,12 @@ The algorithms that were used (pred
 * **Co-clustering**: collaborative filtering algorithm based on co-clustering.
 
 
-# Final Model Results
+# Final Results
+
+The algorithm that gave me the best results is SVDpp, but because the test time was very large I instead made predictions using BaselineOnly algorithm. I created a personal user and based on the ratings, the model will recommended the highest rated movies (example below).
 
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/algorithm_best_rmse.png)
+![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/example_recommendations_baselineonly.png)
 
 
 
