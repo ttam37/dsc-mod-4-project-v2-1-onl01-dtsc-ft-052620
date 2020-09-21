@@ -58,20 +58,29 @@ Dataset can be found on the GroupLens website: https://grouplens.org/datasets/mo
 
 # Algorithms
 
-The algorithms that were used:
-**KNNBasic**: basic collaborative filtering algorithm
-**KNNBaseline**: basic collaborative filtering algorithm taking into account a baseline rating
-**SVD**: matrix factorization method
+The algorithms that were used (pred
+
+#### Basic Algorithms
+* **NormalPredictor**: algorithm predicts a random rating based on the distribution of the training set, which is assumed to be normal. This is one of the most basic algorithms that do not do much work.
+* **BaselineOnly**: algorithm predicts the baseline estimate for given user and item.
+
+#### K-NN Algorithms
+* **KNNBasic**: KNNBasic is a basic collaborative filtering algorithm.
+* **KNNWithMeans**: basic collaborative filtering algorithm, taking into account the mean ratings of each user.
+* **KNNWithZScore**: basic collaborative filtering algorithm, taking into account the z-score normalization of each user.
+* **KNNBaseline**: basic collaborative filtering algorithm taking into account a baseline rating.
+
+#### Matrix Factorization-Based Algorithms
+* **SVD**: algorithm is equivalent to Probabilistic Matrix Factorization
+* **SVDpp**: algorithm is an extension of SVD that takes into account implicit ratings.
+* **NMF**: collaborative filtering algorithm based on Non-negative Matrix Factorization. It is very similar with SVD.
+* **Slope One**: straightforward implementation of the SlopeOne algorithm.
+* **Co-clustering**: collaborative filtering algorithm based on co-clustering.
 
 
 # Final Model Results
 
-**Best Model**: Linear SVC
-**Final Accuracy Score**: 89.74%
-
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/LinearSVC_metrics.png)
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/LinearSVC_confusion_matrix_result.png)
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/LinearSVC_confusion_matrix_result1.png)
+![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/algorithm_best_rmse.png)
 
 
 
