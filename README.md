@@ -80,7 +80,7 @@ The algorithms that were used (pred
 
 # Final Model Results
 
-![](https://github.com/ttam37/dsc-mod-3-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/algorithm_best_rmse.png)
+![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/algorithm_best_rmse.png)
 
 
 
